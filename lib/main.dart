@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_for_new_baba_vadika/widgets/backgroud_progressbar_widget.dart';
-import 'package:flutter_for_new_baba_vadika/widgets/progresbar_widget..dart';
-
-import 'widgets/background_image_widget.dart';
-import 'widgets/show_count_days_widget.dart';
+import 'presentation/widgets/backgroud_progressbar_widget.dart';
+import 'presentation/widgets/background_image_widget.dart';
+import 'presentation/widgets/progresbar_widget..dart';
+import 'presentation/widgets/show_count_days_widget.dart';
 
 void main() {
   runApp(const MyApp());
