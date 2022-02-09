@@ -37,6 +37,8 @@ dependencies:
   bloc: ^8.0.1
   
   equatable: ^2.0.3
+  http: ^0.13.4
+  teledart: ^0.2.1
   
 
 dev_dependencies:
