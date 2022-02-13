@@ -1,5 +1,5 @@
 class DateController {
-  DateTime startTime = new DateTime(2022, 1, 1);
+  DateTime startTime = new DateTime(2022, 1, 15);
   static DateController? _instance;
   DateController._();
 

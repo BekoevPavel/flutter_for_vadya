@@ -8,12 +8,12 @@ class ProgresIndecator extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.all(MediaQuery.of(context).size.width * 0.05),
-      width: MediaQuery.of(context).size.width,
-      height: MediaQuery.of(context).size.width,
+      width: MediaQuery.of(context).size.width * 0.94,
+      height: MediaQuery.of(context).size.width * 0.94,
       child: CircularProgressIndicator(
         color: const Color.fromARGB(255, 205, 186, 197),
         backgroundColor: const Color.fromARGB(255, 111, 0, 20),
-        strokeWidth: MediaQuery.of(context).size.width * 0.05,
+        strokeWidth: MediaQuery.of(context).size.width * 0.03,
         value: DateController.getInstance().getProccesIndicatorValue(),
         semanticsLabel: 'Linear progress indicator',
       ),

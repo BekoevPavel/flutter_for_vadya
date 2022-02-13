@@ -6,15 +6,16 @@ class BackgroundProgressIndicator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(MediaQuery.of(context).size.width * 0.05),
-      width: MediaQuery.of(context).size.width,
-      height: MediaQuery.of(context).size.width,
-      child: CircularProgressIndicator(
-        backgroundColor: Colors.black,
-        strokeWidth: MediaQuery.of(context).size.width * 0.09,
-        value: 0,
-        semanticsLabel: 'Linear progress indicator',
+      //margin: EdgeInsets.all(40),
+      decoration: const BoxDecoration(
+        color: Colors.black,
+        borderRadius: BorderRadius.all(
+            Radius.circular(500.0) //                 <--- border radius here
+            ),
       ),
+      //padding: EdgeInsets.all(MediaQuery.of(context).size.width * 0.8),
+      width: MediaQuery.of(context).size.width * 0.9,
+      height: MediaQuery.of(context).size.width * 0.9,
     );
   }
 }
